@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutomationRest">
+	
+    <test name="automationRestFirst">
+    	<groups>
+        	<run>
+        		<include name="firstTest"></include>
+        	</run>
+        </groups>
+        <classes>
+            <class
+                name="com.automation.tests.TestREST" />
+        </classes>
+    </test>
+    
+    <test name="automationRestSecondPartOne">
+    	<groups>
+        	<run>
+        		<include name="secondTestPartOne"></include>
+        	</run>
+        </groups>
+        <classes>
+            <class
+                name="com.automation.tests.TestSchemaValidation" />
+        </classes>
+    </test>
+    
+    <test name="automationRestSecondPartTwo">
+    	<groups>
+        	<run>
+        		<include name="secondTestPartTwo"></include>
+        	</run>
+        </groups>
+        <classes>
+            <class
+                name="com.automation.tests.TestResourcePosts" />
+        </classes>
+    </test>
+    
+    <test name="automationRestSecondPartThree">
+    	<groups>
+        	<run>
+        		<include name="secondTestPartThree"></include>
+        	</run>
+        </groups>
+        <classes>
+            <class
+                name="com.automation.tests.TestParameters" />
+        </classes>
+    </test>
+</suite>
