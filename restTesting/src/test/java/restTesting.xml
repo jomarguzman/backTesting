@@ -48,4 +48,17 @@
                 name="com.automation.tests.TestParameters" />
         </classes>
     </test>
+    
+    <test name="automationRestThird">
+    	<groups>
+        	<run>
+        		<include name="thirdTest"></include>
+        	</run>
+        </groups>
+        <parameter name="headerValue" value="default"></parameter>
+        <classes>
+            <class
+                name="com.automation.tests.CallWithHeader" />
+        </classes>
+    </test>
 </suite>
